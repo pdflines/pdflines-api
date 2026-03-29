@@ -1,0 +1,22 @@
+{
+  "name": "pdflines-api",
+  "version": "1.0.0",
+  "description": "Demo backend API for PDFLines - a safe public demonstration project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["pdf", "api", "express", "demo"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.0.0",
+    "express-validator": "^6.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
