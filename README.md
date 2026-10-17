@@ -22,7 +22,7 @@ The tools cover merge, split, compress, rotate, organize pages, delete pages, pr
 
 - JPG to PDF and PNG to PDF run in your browser when the images are small enough. Larger images are uploaded only if you agree. JPG to PDF also accepts a mix of JPG and PNG files.
 - All other tools upload your file over HTTPS to PDFLines servers for processing.
-- PDF to Word, PDF to PowerPoint and PDF to Excel use Adobe PDF Services. PDF to Word reads scanned pages with OCR.
+- PDF to Word, PDF to PowerPoint and PDF to Excel use Adobe PDF Services. PDF to Word usually reads scanned pages with OCR.
 - Uploaded working files are deleted when processing finishes. Output files are deleted about one hour after the job.
 - Download links expire after 15 minutes.
 - Google Analytics loads only if you accept it. PDFLines does not show ads.
