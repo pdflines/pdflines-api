@@ -14,13 +14,20 @@ The sample server listens on port 3000.
 
 ## The live product
 
-[PDFLines](https://www.pdflines.com) is a free set of PDF tools. You can use them without an account.
+[PDFLines](https://www.pdflines.com) is a free set of 18 PDF tools. You can use them without an account, and outputs have no watermark. The site is available in English, Spanish, Russian and Hindi.
 
-JPG and PNG to PDF run in the browser. The other tools upload files to PDFLines servers. PDF to Word uses Adobe PDF Services, and scanned pages are read with OCR.
+The tools cover merge, split, compress, rotate, organize pages, delete pages, protect and unlock, plus conversions between PDF and Word, PowerPoint, Excel, JPG and PNG.
 
-Uploaded files are deleted after processing. Output files are kept for about 1 hour. Backup copies are removed within 2 hours. Download links expire after 15 minutes.
+### How files are handled
 
-Google Analytics loads only after you accept it. PDFLines does not show ads.
+- JPG to PDF and PNG to PDF run in your browser when the images are small enough. Larger images are uploaded only if you agree. JPG to PDF also accepts a mix of JPG and PNG files.
+- All other tools upload your file over HTTPS to PDFLines servers for processing.
+- PDF to Word, PDF to PowerPoint and PDF to Excel use Adobe PDF Services. PDF to Word reads scanned pages with OCR.
+- Uploaded working files are deleted when processing finishes. Output files are deleted about one hour after the job.
+- Download links expire after 15 minutes.
+- Google Analytics loads only if you accept it. PDFLines does not show ads.
+
+See the [privacy policy](https://www.pdflines.com/privacy) for details.
 
 ## License
 
